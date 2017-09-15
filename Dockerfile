@@ -8,6 +8,7 @@ RUN curl -sf -o /opt/jenkins/jenkins.war -L http://mirrors.jenkins-ci.org/war/la
 RUN curl -sf -o /opt/jenkins/data/plugins/git-client.hpi -L http://mirrors.jenkins-ci.org/plugins/git-client/latest/git-client.hpi
 RUN curl -sf -o /opt/jenkins/data/plugins/scm-api.hpi -L http://mirrors.jenkins-ci.org/plugins/scm-api/latest/scm-api.hpi
 RUN curl -sf -o /opt/jenkins/data/plugins/git.hpi -L http://mirrors.jenkins-ci.org/plugins/git/latest/git.hpi
+RUN curl -sf -o /opt/jenkins/data/plugins/gitlab-plugin.hpi -L http://mirrors.jenkins-ci.org/plugins/gitlab-plugin/latest/gitlab-plugin.hpi
 #RUN curl -sf -o /opt/jenkins/data/plugins/github-api.hpi -L http://mirrors.jenkins-ci.org/plugins/github-api/latest/github-api.hpi
 #RUN curl -sf -o /opt/jenkins/data/plugins/github.hpi -L http://mirrors.jenkins-ci.org/plugins/github/latest/github.hpi
 RUN curl -sf -o /opt/jenkins/data/plugins/docker-build-publish.hpi -L http://mirrors.jenkins-ci.org/plugins/docker-build-publish/latest/docker-build-publish.hpi
